@@ -1,0 +1,70 @@
+body{
+background-color:white;
+}
+#theWholePage{
+border: 10px solid seagreen;
+}
+h1{
+  color:maroon;
+  font-family:monospace;
+  text-align: center;
+  font-size:50px;
+}
+h2{
+  font-size: 35px;  
+  color:blue;
+}
+.paraAboutIntro{
+color:black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:25px;
+}
+.paraAboutEarlyLife{
+color:black;
+font-size:25px;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.centerSomeImages{
+   display:block;
+   margin-left: auto;
+   margin-right:auto; 
+}
+.pathToFlight{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.keyContributions{
+   color:black;
+   font-size:25px; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#legacy{
+color: black;
+font-size: 25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#conclusion{
+   color:black;
+   font-size:25px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif 
+}
+#firstFlight{
+ color:black;
+ font-size:25px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;  
+}
+.column {
+   float: left;
+   width: 33.33%;
+   padding: 5px;
+}
+.row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+ * {
+   box-sizing: border-box;
+ }
+ 
